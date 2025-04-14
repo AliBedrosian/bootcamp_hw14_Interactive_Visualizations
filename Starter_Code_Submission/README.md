@@ -1,7 +1,29 @@
-# bootcamp_hw14_Interactive_Visualizations
-Alison McCondichie - Module 14 - Belly Button Challenge - Interactive Visualizations
+🧫 Belly Button Biodiversity Dashboard (JavaScript + D3.js)
+This project demonstrates the creation of an interactive data visualization dashboard using JavaScript, D3.js, and HTML.
 
-The purpose of this project was to build an interactive dashboard with Javascript and D3. The dashbaord found in the index.html file allows users to explore Belly Button Biodiversity information through an interactive dropdown menu. Changing the dropdown options also populates updated information for the Bubble Chart and Bar Chart. 
-A link to the official study where the microbiom data was gathered is included on the webpage. This project highlights ability to read in information from an url using D3, then organize and create visuals based on user input interacting with the data. 
+The dashboard (accessible via index.html) allows users to explore microbial biodiversity in human belly buttons, using data from a published microbiome study. Users can select a test subject from a dropdown menu to dynamically update a bar chart, bubble chart, and demographic info panel.
 
-The Javascript code can be found under "static" folder --> "js" folder. 
+🧪 Project Highlights
+Pulled external JSON data using d3.json()
+
+Built dynamic charts that respond to user input
+
+Used D3.js to manipulate the DOM and bind data to SVG elements
+
+Organized project with clean folder structure and reusable functions
+
+🎯 Key Features
+Interactive dropdown menu to select sample IDs
+
+Real-time updates to bubble chart and bar chart based on selection
+
+Responsive demographic info panel
+
+Link to the original microbiome study included on the page
+
+📸 Deliverables
+index.html with embedded dashboard
+
+JavaScript files for data handling and visualization
+
+Screenshots of the dashboard in action
